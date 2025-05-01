@@ -15,10 +15,15 @@
     --breakpoint-lg: 976pt;
     --breakpoint-xl: 1440pt;
     
-    
     }
+
+   
+    body {
+      overflow-x: hidden;
+    }
+
     body{
-        background-image: url('/dist/images/background.svg');
+        background-image: url('/images/background.svg');
         background-repeat: no-repeat;
         background-size :800px;
         background-position : 140% -190px;
