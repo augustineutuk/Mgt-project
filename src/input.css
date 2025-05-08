@@ -22,11 +22,13 @@
       overflow-x: hidden;
     }
 
+  
+
     body{
         background-image: url('/images/background.svg');
         background-repeat: no-repeat;
-        background-size :800px;
-        background-position : 140% -190px;
+        background-size : 500px;
+        background-position : 120% -160px;
       
     
     }
