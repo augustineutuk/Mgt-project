@@ -18,28 +18,20 @@
     }
 
    
-    body {
-      overflow-x: hidden;
-    }
-
-  
 
      body{
         background-image: url('/images/background.svg');
         background-repeat: no-repeat;
-        background-size : 500px;
-        background-position : 120% -160px;
-       
-      
-    
+        background-size : 800px;
+        background-position : 130% -140px;
     } 
     
-    /* #Simplify{
+     #Simplify{
       background-image: url('/dist/images/background\ -\ Copy.svg');
         background-repeat: no-repeat;
          background-size: 600; 
          background-position: 100% -40px;  
-    } */
+    } 
 
     @media (max-width: 576px){
       body{

@@ -316,17 +316,11 @@
   .items-center {
     align-items: center;
   }
-  .items-start {
-    align-items: flex-start;
-  }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
-  }
-  .justify-start {
-    justify-content: flex-start;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -489,9 +483,6 @@
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
   }
-  .py-1 {
-    padding-block: calc(var(--spacing) * 1);
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -652,12 +643,6 @@
   .sm\:w-auto {
     @media (width >= 480pt) {
       width: auto;
-    }
-  }
-  .sm\:text-sm {
-    @media (width >= 480pt) {
-      font-size: var(--text-sm);
-      line-height: var(--tw-leading, var(--text-sm--line-height));
     }
   }
   .md\:mx-auto {
@@ -1044,13 +1029,16 @@
 }
 @layer utilities;
 body {
-  overflow-x: hidden;
-}
-body {
   background-image: url('/images/background.svg');
   background-repeat: no-repeat;
-  background-size: 500px;
-  background-position: 120% -160px;
+  background-size: 800px;
+  background-position: 130% -140px;
+}
+#Simplify {
+  background-image: url('/dist/images/background\ -\ Copy.svg');
+  background-repeat: no-repeat;
+  background-size: 600;
+  background-position: 100% -40px;
 }
 @media (max-width: 576px) {
   body {
