@@ -261,7 +261,8 @@
    </div>
   
   <!-- Copyright for mobile -->
-   <div class=""><p class="text-gray-400 text-xs md:hidden">© 2022 All Rights Reserved</p></div>
+   <div class="">
+    <p id="mobileYear" class="text-gray-400 text-xs md:hidden">© <span id="yearMobile"></span> All Rights Reserved</p></div>
    </div>
   
   <!-- Center Section: Links -->
@@ -290,7 +291,7 @@
 
   <!-- Aligned desktop copyright -->
   <div class="hidden md:block w-full text-left">
-    <p class="text-gray-400 text-sm md:text-xl">© 2022 All Rights Reserved</p>
+    <p id="desktopYear" class="text-gray-400 text-sm md:text-xl"> © <span id="yearDesktop"></span> All Rights Reserved</p>
   </div>
 </div>
   
@@ -342,6 +343,12 @@ btn.addEventListener('click',() =>{
 
 });
 
+
+// Javascript code to produce a calendar
+
+const currentYear = new Date().getFullYear();
+  document.getElementById('yearMobile').textContent = currentYear;
+  document.getElementById('yearDesktop').textContent = currentYear;
 
 </script>
 

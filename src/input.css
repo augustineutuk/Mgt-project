@@ -16,9 +16,6 @@
     --breakpoint-xl: 1440pt;
     
     }
-
-   
-
      body{
         background-image: url('/images/background.svg');
         background-repeat: no-repeat;
@@ -41,17 +38,14 @@
       }
    
     
-      /* #Simplify{
+       #Simplify{
         background-image: url('/dist/images/background\ -\ Copy.svg');
         background-repeat: no-repeat;
         
         
-      } */
+      } 
     }
    
-    
-  
-  
      /* Hamburger Menu */
      .hamburger{
       cursor: pointer;
