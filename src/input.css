@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tailwindcss";
 
 @theme {
   --color-brightRed: hsl(12, 88%, 59%);
@@ -17,21 +18,21 @@
 }
 
 body {
-  background-image: url('/images/background.svg');
+  background-image: url('../images/background.svg');
   background-repeat: no-repeat;
   background-size: 800px;
   background-position: 130% -140px;
 }
 
 #Simplify {
-  background-image: url('/images/Simplify-copy.svg');
+  background-image: url('../images/Simplify-copy.svg');
   background-repeat: no-repeat;
   background-size: 500px;
   background-position: -70% 0px;
 }
 
 #side-image {
-  background-image: url('/images/background.svg');
+  background-image: url('../images/background.svg');
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: -150px 10px;
@@ -44,7 +45,7 @@ body {
   }
 
   #Simplify {
-    background-image: url('/images/Simplify1.svg');
+    background-image: url('../images/Simplify1.svg');
     background-repeat: no-repeat;
   }
 
