@@ -1061,7 +1061,7 @@ body {
   background-image: url('../images/Simplify-copy.svg');
   background-repeat: no-repeat;
   background-size: 500px;
-  background-position: -70% 0px;
+  background-position: -2% -20px;
 }
 #side-image {
   background-image: url('../images/background.svg');
@@ -1071,8 +1071,8 @@ body {
 }
 @media (max-width: 576px) {
   body {
-    background-position: 50px -50px;
-    background-size: 500px;
+    background-position: 0px -140px;
+    background-size: 650px;
   }
   #Simplify {
     background-image: url('../images/Simplify1.svg');
